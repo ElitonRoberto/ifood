@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ifood/src/home.dart';
 import 'src/login.dart';
 import 'src/cadastro.dart';
 import 'src/cardapio.dart';
@@ -16,7 +17,8 @@ class MeuApp extends StatelessWidget {
       routes: {
         '/login': (context) => const PageLogin(),
         '/cadastro': (context) => const PageCadastro(),
-        '/cardapio': (context) => const PageCardapio()
+        '/home': (context) => const Home(),
+        
       },
       initialRoute: '/login',
     );

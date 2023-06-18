@@ -68,7 +68,7 @@ class _FormLogin extends State<FormLogin> {
           ElevatedButton(
             onPressed: () {
               if (_formkey.currentState!.validate()) {}
-              Navigator.pushNamed(context, '/cardapio');
+              Navigator.pushNamed(context, '/home');
             },
             child: const Text('Entrar'),
           ),
